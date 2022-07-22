@@ -14,7 +14,7 @@
     border: 4px solid #fff;
     border-radius: 50%;
     border-top: 4px solid #1876f3;
-    animation: rot 1s esae-in infinite;
+    animation: rot 1s ease-in infinite;
 }
 
 @keyframes rot {
