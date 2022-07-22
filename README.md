@@ -1,3 +1,4 @@
 # MailBox
 MailBox UI Design
-(Screenshot)[screenshot.png]
+# Screenshots
+![MailBox](screenshot.png)
