@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MailBox UI Design | Tailwind CSS Power with Qasim Skills.">
+    <meta name="author" content="Qasim Sarwari">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MailBox</title>
+</head>
+
+<body class="h-screen bg-red-50 px-20 flex items-center justify-center">
+    <!-- main container -->
+    <div class="container relative shadow-xl w-full bg-white flex">
+        <!-- left side menu -->
+        <nav class="navbar h-full bg-gray-50 z-10">
+            <div class="user py-2.5 h-28 px-7 flex justify-between items-center">
+                <img src="img/profile.jpg" class="w-12 h-12 rounded-full border border-white">
+                <div>
+                    <h3 class="text-blue-400  font-bold">Qasim Sarwari</h3>
+                    <p class="text-sm">qasimsarwari@gmail.com</p>
+                </div>
+            </div>
+            <ul>
+                <!-- current user -->
+                <li>
+                    <a href="#" class="active item flex items-center justify-between w-full font-bold px-4 py-2.5 pr-7 hover:bg-white">
+                        <div class="flex items-center"><span class="ico mx-3 font-normal sam">email</span> Inbox</div>
+                        <span class="py-0 px-3 bg-red-500 text-white rounded-full">20</span>
+                    </a>
+                </li>
+                <!-- // current user -->
+                <li>
+                    <a href="#" class="flex item items-center w-full font-bold px-4 py-2.5 hover:bg-white"><span class="ico mx-3 sam font-normal">star</span>Flaged</a>
+                </li>
+                <li><a href="#" class="flex item items-center w-full font-bold px-4 py-2.5 hover:bg-white"><span class="ico mx-3 sam font-normal">drafts</span>Draft</a></li>
+                <li><a href="#" class="flex item items-center w-full font-bold px-4 py-2.5 hover:bg-white"><span class="ico mx-3 sam font-normal">delete</span>Trash</a></li>
+                <li><a href="#" class="flex item items-center w-full font-bold px-4 py-2.5 hover:bg-white"><span class="ico mx-3 sam font-normal">send</span>Sent</a></li>
+                <li><a href="#" class="flex item items-center w-full font-bold px-4 py-2.5 hover:bg-white"><span class="ico mx-3 sam font-normal">dashboard</span>More</a></li>
+            </ul>
+            <div class="flex w-full mt-4 py-3 px-8 justify-between items-center font-bold text-2xl">Folders <span class="py-0.5 px-3 font-normal rounded-full bg-blue-100 text-sm cursor-pointer">Add</span></div>
+            <ul>
+                <li><a href="#" class="flex items-center w-full font-bold px-4 py-2.5 hover:bg-white"><span class="ico mx-3 font-normal text-blue-500">folder</span>Office</a></li>
+                <li><a href="#" class="flex items-center w-full font-bold px-4 py-2.5 hover:bg-white"><span class="ico mx-3 font-normal text-red-400">folder</span>Personal</a></li>
+                <li><a href="#" class="flex items-center w-full font-bold px-4 py-2.5 hover:bg-white"><span class="ico mx-3 font-normal text-yellow-400">folder</span>Freelance</a></li>
+            </ul>
+            <div class="py-10 flex justify-center items-center">
+                <button class="py-1 px-10 bg-red-400 shadow-lg rounded-md text-white font-medium">Compose</button>
+            </div>
+        </nav>
+        <!-- //// left side menu -->
+        <!-- posts -->
+        <div class="posts w-4/12 h-full bg-blue-50 p-4 z-0">
+            <!-- search bar -->
+            <div class="search w-full flex items-center py-0 px-4 mb-8 bg-white shadow-lg rounded-md">
+                <span class="ico text-xl py-1 px-2 cursor-pointer">search</span>
+                <input type="text" placeholder="Search" class="w-full py-1 px-3 outline-none">
+            </div>
+            <!-- search bar -->
+            <!-- post -->
+            <div class="post my-3 p-5 bg-white rounded-md shadow-xl flex gap-4">
+                <img src="img/profile.jpg" class="w-14 h-14 rounded-full">
+                <div class="user">
+                    <div class="flex justify-between items-center w-full">
+                        <div>
+                            <h2 class="font-bold">Qasim Khan</h2>
+                            <p>Portfolio</p>
+                        </div>
+                        <span class="font-sans flex time">Today 06:45 PM</span>
+                    </div>
+                    <p class="py-2 pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ea iure saepe.
+                    </p>
+                    <p class="text-blue-500 font-sans cursor-pointer"><span class="ico">attachment</span> 4 Attachments</p>
+                </div>
+            </div>
+            <!-- // post -->
+            <!-- pots -->
+            <div class="post my-3 p-5 bg-white rounded-md shadow-xl flex gap-4">
+                <img src="img/profile2.jpg" class="w-14 h-14 rounded-full">
+                <div class="user">
+                    <div class="flex justify-between items-center w-full">
+                        <div>
+                            <h2 class="font-bold">Lily Jones</h2>
+                            <p>invitations</p>
+                        </div>
+                        <span class="font-sans flex time">Yasterday 010:20 AM</span>
+                    </div>
+                    <p class="py-2 pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ea iure saepe.
+                    </p>
+                </div>
+            </div>
+            <!-- //pots -->
+            <!-- pots -->
+            <div class="post my-3 p-5 bg-white rounded-md shadow-xl flex gap-4">
+                <img src="img/03.jpg" class="w-14 h-14 rounded-full">
+                <div class="user">
+                    <div class="flex justify-between items-center w-full">
+                        <div>
+                            <h2 class="font-bold">Smith</h2>
+                            <p>Assignment Subscribation</p>
+                        </div>
+                        <span class="font-sans flex time">Monday 2:10 PM</span>
+                    </div>
+                    <p class="py-2 pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ea iure saepe.
+                    </p>
+                </div>
+            </div>
+            <!-- // pots -->
+            <!-- pots -->
+            <div class="post p-5 bg-white rounded-md shadow-xl flex gap-4">
+                <img src="img/02.jpg" class="w-14 h-14 rounded-full">
+                <div class="user">
+                    <div class="flex justify-between items-center w-full">
+                        <div>
+                            <h2 class="font-bold">Sara Johan</h2>
+                            <p>Interview Scheduled</p>
+                        </div>
+                        <span class="font-sans flex time">Monday 2:10 PM</span>
+                    </div>
+                    <p class="py-2 pt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ea iure saepe.
+                    </p>
+                </div>
+            </div>
+            <!-- // pots -->
+        </div>
+        <!-- /// posts -->
+        <div class="blog p-5">
+            <!-- top-bar -->
+            <div class="top-bar w-full p-4 flex justify-around items-center">
+                <div class="icons flex items-center gap-4">
+                    <span class="ico">share</span>
+                    <span class="ico">replay</span>
+                    <span class="ico">undo</span>
+                    <span class="ico">delete</span>
+                </div>
+                <div class="controls flex items-center">
+                    <span class="font-sans">1/80</span>
+                    <span class="ico">chevron_left</span>
+                    <span class="ico">chevron_right</span>
+                </div>
+            </div>
+            <!-- // top-bar -->
+            <!-- blog-post -->
+            <div class="blog-post flex gap-4 p-3 pb-0">
+                <img src="img/03.jpg" class="w-14 h-14 rounded-full">
+                <div>
+                    <div class="username pt-2">
+                        <h2 class="font-bold">Qasim Sarwari</h2>
+                        <p>Portfolio</p>
+                    </div>
+                    <p class="text-gray-400 mb-4">qasimsarwari@gmail.com</p>
+                    <span class="font-medium font-sans block py-3">Today 08:45 AM</span>
+                    <p class=" py-2 pr-6 text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, fugit accusamus exercitationem quaerat minus omnis magni quae nisi quos vitae inventore eveniet porro incidunt, at eius necessitatibus sit cumque expedita, pariatur possimus?
+                        Voluptatem quibusdam magni id voluptate fugit aperiam maxime quasi vel! Assumenda voluptatem optio inventore animi? Ducimus, labore optio?</p>
+                    <p class="text-blue-500 font-sans cursor-pointer mt-3"><span class="ico">attachment</span> 4 Attachments</p>
+                    <!-- images album -->
+                    <div class="album flex gap-4 mt-4 mb-3">
+                        <div>
+                            <img src="img/img1 (1).jpg" class="w-24 h-16 mb-4 shadow">
+                            <img src="img/img1 (2).jpg" class="w-24 h-16 shadow">
+                        </div>
+                        <div class="flex gap-4">
+                            <img src="img/img1 (3).jpg" class="w-44 shadow">
+                            <img src="img/img1 (4).jpg" class="w-36 object-cover shadow">
+                        </div>
+                    </div>
+                    <!-- download area -->
+                    <div class="flex gap-3 items-center">
+                        <button class="py-0.5 px-2 border border-gray-400 rounded text-gray-400"><span class="ico">save_alt</span> Download</button>
+                        <span class="text-gray-400 font-sans">6.5MB Total</span>
+                    </div>
+                    <!-- message area -->
+                    <div class="message w-96 mt-3 flex items-center gap-3 p-2 pr-3 border border-gray-400 rounded">
+                        <input type="text" placeholder="Type message" class="w-full h-full outline-none pl-3">
+                        <span class="ico">attachment</span>
+                        <span class="ico text-blue-500">send</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="text-gray-400">Copyright &copy;2022 Qasim Sarwari.</footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
