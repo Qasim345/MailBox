@@ -1,5 +1,5 @@
 # MailBox
-MailBox UI Design
+MailBox UI Design using Tailwind CSS
 ## Preview
 https://qasim345.github.io/MailBox
 # Screenshots
